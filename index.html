@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="container">
+    <img src="image.webp" alt="Your Photo" class="profile-pic" />
+    <div class="bio">
+      <h2>Hello, I'm [Your Name]</h2>
+      <p>I'm a passionate web developer skilled in HTML, CSS, JavaScript, and more. I love building beautiful and functional websites.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Git</div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>A cool website built using React and Node.js</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="project2.jpg" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>A responsive portfolio website with smooth animations</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+      </div>
+
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
